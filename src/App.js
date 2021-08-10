@@ -1,8 +1,15 @@
+import { Cart } from "./components/Cart/Cart";
+import { HeaderPrincipal } from "./components/Layout/HeaderPrincipal";
+import { Meals } from "./components/Meals/Meals";
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <>
+      <Cart />
+      <HeaderPrincipal />
+      <main>
+        <Meals />
+      </main>
+    </>
   );
 }
 
